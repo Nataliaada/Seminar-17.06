@@ -4,9 +4,11 @@
 
 Console.WriteLine("Введите число:");
 int b = Convert.ToInt32(Console.ReadLine());
-int i = 1;
+int i = 0;
 
-while (i <= b);
- i = i +1;
-if (i % 2 ==0) Console.WriteLine($"{i}");
-else Console.WriteLine();
+while (i < b) 
+{
+i++;
+if (i%2 == 0) Console.WriteLine($"{i} ");
+}
+Console.WriteLine();
