@@ -5,6 +5,7 @@
 Console.WriteLine("Введите число:");
 int b = Convert.ToInt32(Console.ReadLine());
 int i = 0;
+// Console.WriteLine($"Чётные числа из диапазона от 1 до {b}:");
 
 while (i < b) 
 {
