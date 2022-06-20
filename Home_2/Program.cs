@@ -11,7 +11,13 @@ int max = a;
 
 if (a > b) max = a;
 else max = b;
-if (c > max) max = c;
-else Console.Write("max = ");
+if (max > c) 
+{
+Console.Write("max = ");
 Console.WriteLine(max);
-
+}
+else
+{
+Console.Write("max = ");
+Console.WriteLine(c);
+}

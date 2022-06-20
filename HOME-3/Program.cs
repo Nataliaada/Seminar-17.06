@@ -6,7 +6,7 @@ int a = Convert.ToInt32(Console.ReadLine());
 int result = a%2;
 
 if (result==0)
-Console.WriteLine("Чётное");
+Console.WriteLine("Введенное число чётное");
 else 
-Console.WriteLine("Нечётное");
+Console.WriteLine("Введенное число нечётное");
 

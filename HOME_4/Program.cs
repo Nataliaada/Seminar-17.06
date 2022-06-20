@@ -10,6 +10,7 @@ int i = 0;
 while (i < b) 
 {
 i++;
-if (i%2 == 0) Console.WriteLine($"{i} ");
+if (i%2 == 0) 
+Console.WriteLine($"{i} ");
 }
 Console.WriteLine();
