@@ -3,7 +3,7 @@
 
 
 Console.WriteLine("Введите число:");
-double a = Convert.ToDouble(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 double i = 1;
 double result = i/a;
 Console.WriteLine(result);
